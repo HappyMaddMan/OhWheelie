@@ -107,7 +107,8 @@ main > div {
 	padding-top: 70px;
 }
 .logo img{
-	width: 15%;
+	width: 10%;
+    height: auto;
 	filter: invert(100%);
 	margin-top: 20px;
 	margin-bottom: 20px;

@@ -39,9 +39,25 @@ function showData(singleRowData){
 		bike_img.src = "https://via.placeholder.com/300x100";
 	}
 	else{
+		// bike_img.src = "https://via.placeholder.com/300x100";
 		bike_img.src = singleRowData.gsx$image.$t;
 	}
 
 
 	document.querySelector(".container").appendChild(clone);
 }
+
+function toggleMenu(e) {
+    let menu = document.querySelector(".burger-menu");
+    if (menu.classList.contains("open")) {
+        menu.classList.remove("open");
+    } else {
+        menu.classList.add("open");
+    }
+    e.preventDefault();
+}
+
+window.addEventListener("DOMContentLoaded", function() {
+    document.querySelector(".burger-menu__toolbar a").addEventListener("click", toggleMenu);
+    document.querySelector(".burger-menu-icon a").addEventListener("click", toggleMenu);
+});

@@ -14,20 +14,10 @@ src: local('Bahnschrift Regular'), url('fonts/BAHNSCHRIFT.woff') format('woff');
 body{
 	margin:0px;
 }
-
-<<<<<<< HEAD
-header nav {
-    position: relative;
-}
-
-header nav .burger-menu {
-=======
 /*header*/ nav {
     position: relative;
 }
-
 /*header*/ nav .burger-menu {
->>>>>>> master
     position: absolute;
     left: -40%;
     width: 40%;
@@ -42,79 +32,38 @@ header nav .burger-menu {
     padding: 1.5rem;
 
 }
-
-<<<<<<< HEAD
-header nav .burger-menu-icon {
-=======
 /*header*/ nav .burger-menu-icon {
->>>>>>> master
     position: absolute;
     left: 1.5rem;
     top: 36px;
     width: 2rem;
     height: 2rem;
 }
-
-<<<<<<< HEAD
-header nav .burger-menu-icon a {
-    cursor: pointer;
-}
-
-header nav .burger-menu.open {
-=======
 /*header*/ nav .burger-menu-icon a {
     cursor: pointer;
 }
-
 /*header*/ nav .burger-menu.open {
->>>>>>> master
     left: 0;
 }
-
-
-<<<<<<< HEAD
-header nav .burger-menu__toolbar {
-=======
 /*header*/ nav .burger-menu__toolbar {
->>>>>>> master
     margin: 0;
     padding: 0.5rem 0 0 0.5rem;
 
 }
-
-
-<<<<<<< HEAD
-header nav .burger-menu ul {
-=======
 /*header*/ nav .burger-menu ul {
->>>>>>> master
     list-style: none;
     margin: 15% 0 0 30%;
     padding: 0;
 }
-<<<<<<< HEAD
-header nav .burger-menu ul li {
-=======
 /*header*/ nav .burger-menu ul li {
->>>>>>> master
     margin: 1rem;
     padding: 0;
 }
 
-
-<<<<<<< HEAD
-header nav .burger-menu ul a {
-    color: #fff;
-}
-
-header nav .burger-menu ul li.active {
-=======
 /*header*/ nav .burger-menu ul a {
     color: #fff;
 }
-
 /*header*/ nav .burger-menu ul li.active {
->>>>>>> master
     border: 0 solid transparent;
 }
 
@@ -210,6 +159,7 @@ main{
 }
 .container img{
 	border: 2px solid #73AECE;
+	max-width: 300px;
 }
 .container h6{
 	position: relative;
@@ -237,13 +187,8 @@ main > div {
 	filter: invert(100%);
 	margin-top: 20px;
 	margin-bottom: 20px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     color: #F4F7F6;
 }
-=======
->>>>>>> master
 }
 .container > div{
 	margin-right: 20px;
@@ -252,9 +197,5 @@ main > div {
 }
 .brand{
 	font-weight: bold;
-<<<<<<< HEAD
 }
-=======
 }
->>>>>>> filtering
->>>>>>> master

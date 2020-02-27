@@ -9,10 +9,14 @@
 <body>
 	<header>
 		<nav>
+            <div class="burger-menu-icon">
+                <a role="button" href="#open" title="Menu"><img src="img/02.%20burger-menu.svg" width="35" height="35" alt="menu-icon"></a>
+            </div>
 			<div class="logo center">
 				<!-- <a href="#"><img src="https://via.placeholder.com/200x75" alt="logo"></a> -->
 				<a href="#"><img src="img/logo.svg" alt="logo"></a>
 			</div>
+			<!--
 			<ul class="center">
 				<li class="active"><a href="#"><h1>Home</h1></a></li>
 				<li><a href="bikes.html"><h1>Bikes</h1></a></li>
@@ -20,7 +24,21 @@
 				<li><a href="#"><h1>About</h1></a></li>
 				<li><a href="#"><h1>Contact Us</h1></a></li>
 			</ul>
+			-->
+			<div class="burger-menu">
+			    <div class="burger-menu__toolbar"><a href="#close" role="button"><img src="img/close-X.svg" width="30" height="30" alt="close-menu-icon"></a></div>
+
+                <ul>
+                    <li class="active"><a href="#"><h1>HOME</h1></a></li>
+                    <li><a href="bikes.html"><h1>BIKES</h1></a></li>
+                    <li><a href="#"><h1>BLOG</h1></a></li>
+                    <li><a href="#"><h1>ABOUT</h1></a></li>
+                    <li><a href="#"><h1>CONTACT US</h1></a></li>
+                </ul>
+
+			</div>
 		</nav>
+
 		<div class="banner">
 			<div class="banner_text">
 				<h2>Enjoy Life. <br> Feel good. <br> Ride a bike</h2>
@@ -36,8 +54,9 @@
 	<footer>
 		<!-- credits etc. -->
 		<!-- <h1>footer</h1> -->
-	</footer>
+    </footer>
 
-	<!-- <script src="script.js"></script> -->
+	 <script src="script.js"></script>
+
 </body>
 </html>

@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> filtering
+>>>>>>> master
 const link = "https://spreadsheets.google.com/feeds/list/1c_aP8TUuOLRLSGDlnVhXoUHLZuwBGa3XFl3akgGpi7c/1/public/values?alt=json"
 window.addEventListener("DOMContentLoaded", getData);
 
@@ -33,14 +41,32 @@ function showData(singleRowData){
 
 	singleRowData.gsx$image.$t = "img/" + singleRowData.gsx$image.$t + ".png";
 
+<<<<<<< HEAD
 	console.log(singleRowData.gsx$image.$t)
+=======
+<<<<<<< HEAD
+	// console.log(singleRowData.gsx$image.$t)
+=======
+	console.log(singleRowData.gsx$image.$t)
+>>>>>>> filtering
+>>>>>>> master
 
 	if (singleRowData.gsx$image.$t == "img/.png") {
 		bike_img.src = "https://via.placeholder.com/300x100";
 	}
 	else{
+<<<<<<< HEAD
 		// bike_img.src = "https://via.placeholder.com/300x100";
 		bike_img.src = singleRowData.gsx$image.$t;
+=======
+<<<<<<< HEAD
+		bike_img.src = singleRowData.gsx$image.$t;
+		bike_img.src = "https://via.placeholder.com/300x100";
+=======
+		// bike_img.src = "https://via.placeholder.com/300x100";
+		bike_img.src = singleRowData.gsx$image.$t;
+>>>>>>> filtering
+>>>>>>> master
 	}
 
 
@@ -61,3 +87,46 @@ window.addEventListener("DOMContentLoaded", function() {
     document.querySelector(".burger-menu__toolbar a").addEventListener("click", toggleMenu);
     document.querySelector(".burger-menu-icon a").addEventListener("click", toggleMenu);
 });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function filterBy(data, filters = {}) {
+//   ** Set up the specific defaults that will show everything:
+//   const defaults = {
+//     category: null,
+//     yearFrom: 1895,
+//     yearTo: 2100,
+//     gender: null
+//   }
+
+//   ** Merge any filters with the defaults
+//   filters = Object.assign({}, defaults, filters);
+
+//   ** Filter based on that filters object:
+//   return data.filter(laur => {
+//     return (laur.yearFrom >= filters.yearFrom) &&
+//            (laur.yearTo <= filters.yearTo) &&
+//            **and so on
+//   });
+// }
+>>>>>>> Stashed changes
+=======
+>>>>>>> filtering
+>>>>>>> master

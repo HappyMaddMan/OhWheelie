@@ -56,12 +56,7 @@ body {
     margin: 15% 0 0 30%;
     padding: 0;
 }
-<<<<<<< HEAD
-
-header nav .burger-menu ul li {
-=======
 /*header*/ nav .burger-menu ul li {
->>>>>>> origin/master
     margin: 1rem;
     padding: 0;
 }
@@ -73,7 +68,6 @@ header nav .burger-menu ul li {
     border: 0 solid transparent;
 
 }
-<<<<<<< HEAD
 
 header nav .burger-menu ul li:hover {
     color: #74afcf;
@@ -85,10 +79,9 @@ header nav .burger-menu ul li.active a {
 
 nav {
     background: #343434;
-=======
+}
 nav{
 	background: #343434;
->>>>>>> origin/master
 }
 
 ul {
@@ -131,15 +124,13 @@ a {
     text-decoration: none;
     color: #73AECE;
 }
-<<<<<<< HEAD
-
 .banner {
     background-image: url(https://via.placeholder.com/1000x500);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
-=======
+}
 .banner{
 	/*background-image: url(https://via.placeholder.com/1000x500);*/
 	background-image: url(img/home/first-photo.jpg);
@@ -147,7 +138,6 @@ a {
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
->>>>>>> origin/master
 }
 
 .banner_text {
@@ -172,7 +162,6 @@ a {
 /*header*/ nav .burger-menu ul li.active {
     box-shadow: 0 0 transparent;
 }
-<<<<<<< HEAD
 
 main {
     background: #ccc;
@@ -192,7 +181,7 @@ main {
 
 .cat > ul li:last-child {
     border-width: 0px;
-=======
+}
 main{
 	background: #ccc;
 	min-height: 100vh;
@@ -214,28 +203,27 @@ main{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	align-items: center;
 }
 .container img{
 	border: 2px solid #73AECE;
 	max-width: 300px;
+	padding: 50px 10px;
 }
-.container h6{
+.container h4{
 	position: relative;
 	margin: 0px;
-	top: 25px;
-	/*left: 10px;*/
+	top: 35px;
 	transform: translateY(100%);
 	margin-left: 15px;
 	margin-top: 10px;
 }
-.container h5{
+.container h3{
 	position: relative;
 	margin: 0px;
-	top: 30px;
-	/*left: 10px;*/
+	top: 40px;
 	transform: translateY(100%);
 	margin-left: 15px;
->>>>>>> origin/master
 }
 
 .container {
@@ -265,11 +253,7 @@ main > div {
     filter: invert(100%);
     margin-top: 20px;
     margin-bottom: 20px;
-}
-<<<<<<< HEAD
-
-
-.blog {
+}.blog {
     background-color: white;
 }
 
@@ -306,7 +290,8 @@ main > div {
     font-family: 'Bahnschrift Regular';
     text-decoration: underline;
     cursor: pointer;
-=======
+}
+
 .logo img{
 	width: 10%;
     height: auto;
@@ -315,12 +300,17 @@ main > div {
 	margin-bottom: 20px;
     color: #F4F7F6;
 }
-.container > div{
+.bike_card{
 	margin-right: 20px;
 	margin-left: 20px;
 	margin-top: -25px;
 }
 .brand{
 	font-weight: bold;
->>>>>>> origin/master
+}
+
+button{
+	background: none;
+	/*border: 0px;*/
+	/*margin-top: -50px;*/
 }

@@ -41,32 +41,15 @@ function showData(singleRowData){
 
 	singleRowData.gsx$image.$t = "img/bikes/" + singleRowData.gsx$image.$t + ".png";
 
-<<<<<<< HEAD
 	console.log(singleRowData.gsx$image.$t)
-=======
-<<<<<<< HEAD
-	// console.log(singleRowData.gsx$image.$t)
-=======
 	console.log(singleRowData.gsx$image.$t)
->>>>>>> filtering
->>>>>>> master
 
 	if (singleRowData.gsx$image.$t == "img/bikes/.png") {
 		bike_img.src = "https://via.placeholder.com/300x100";
 	}
 	else{
-<<<<<<< HEAD
 		// bike_img.src = "https://via.placeholder.com/300x100";
 		bike_img.src = singleRowData.gsx$image.$t;
-=======
-<<<<<<< HEAD
-		bike_img.src = singleRowData.gsx$image.$t;
-		bike_img.src = "https://via.placeholder.com/300x100";
-=======
-		// bike_img.src = "https://via.placeholder.com/300x100";
-		bike_img.src = singleRowData.gsx$image.$t;
->>>>>>> filtering
->>>>>>> master
 	}
 
 
@@ -87,10 +70,6 @@ window.addEventListener("DOMContentLoaded", function () {
     document.querySelector(".burger-menu__toolbar a").addEventListener("click", toggleMenu);
     document.querySelector(".burger-menu-icon a").addEventListener("click", toggleMenu);
 });
-<<<<<<< HEAD
-
-
-
 function readFunction(e) {
     var Btn = e.target;
     var blogText = Btn.closest(".blogText");
@@ -107,27 +86,6 @@ function readFunction(e) {
         moreText.style.display = "inline";
     }
 }
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // function filterBy(data, filters = {}) {
 //   ** Set up the specific defaults that will show everything:
 //   const defaults = {
@@ -147,8 +105,3 @@ function readFunction(e) {
 //            **and so on
 //   });
 // }
->>>>>>> Stashed changes
-=======
->>>>>>> filtering
->>>>>>> master
->>>>>>> origin/master

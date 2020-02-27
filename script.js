@@ -1,8 +1,11 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 =======
 >>>>>>> filtering
+>>>>>>> master
 const link = "https://spreadsheets.google.com/feeds/list/1c_aP8TUuOLRLSGDlnVhXoUHLZuwBGa3XFl3akgGpi7c/1/public/values?alt=json"
 window.addEventListener("DOMContentLoaded", getData);
 
@@ -36,18 +39,26 @@ function showData(singleRowData){
 
 	bike_img.alt = singleRowData.gsx$image.$t;
 
-	singleRowData.gsx$image.$t = "img/" + singleRowData.gsx$image.$t + ".png";
+	singleRowData.gsx$image.$t = "img/bikes/" + singleRowData.gsx$image.$t + ".png";
 
+<<<<<<< HEAD
+	console.log(singleRowData.gsx$image.$t)
+=======
 <<<<<<< HEAD
 	// console.log(singleRowData.gsx$image.$t)
 =======
 	console.log(singleRowData.gsx$image.$t)
 >>>>>>> filtering
+>>>>>>> master
 
-	if (singleRowData.gsx$image.$t == "img/.png") {
+	if (singleRowData.gsx$image.$t == "img/bikes/.png") {
 		bike_img.src = "https://via.placeholder.com/300x100";
 	}
 	else{
+<<<<<<< HEAD
+		// bike_img.src = "https://via.placeholder.com/300x100";
+		bike_img.src = singleRowData.gsx$image.$t;
+=======
 <<<<<<< HEAD
 		bike_img.src = singleRowData.gsx$image.$t;
 		bike_img.src = "https://via.placeholder.com/300x100";
@@ -55,6 +66,7 @@ function showData(singleRowData){
 		// bike_img.src = "https://via.placeholder.com/300x100";
 		bike_img.src = singleRowData.gsx$image.$t;
 >>>>>>> filtering
+>>>>>>> master
 	}
 
 
@@ -75,6 +87,8 @@ window.addEventListener("DOMContentLoaded", function() {
     document.querySelector(".burger-menu__toolbar a").addEventListener("click", toggleMenu);
     document.querySelector(".burger-menu-icon a").addEventListener("click", toggleMenu);
 });
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 
 
@@ -115,3 +129,4 @@ window.addEventListener("DOMContentLoaded", function() {
 >>>>>>> Stashed changes
 =======
 >>>>>>> filtering
+>>>>>>> master

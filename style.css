@@ -170,19 +170,19 @@ main{
 	max-width: 300px;
 	padding: 50px 10px;
 }
-.container h6{
+.container h4{
 	position: relative;
 	margin: 0px;
-	top: 25px;
+	top: 35px;
 	/*left: 10px;*/
 	transform: translateY(100%);
 	margin-left: 15px;
 	margin-top: 10px;
 }
-.container h5{
+.container h3{
 	position: relative;
 	margin: 0px;
-	top: 30px;
+	top: 40px;
 	/*left: 10px;*/
 	transform: translateY(100%);
 	margin-left: 15px;

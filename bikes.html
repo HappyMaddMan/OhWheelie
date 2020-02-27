@@ -4,22 +4,36 @@
 	<meta charset="UTF-8">
 	<title>Bikes</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="vanillaSelectBox.css">
 	<link rel="stylesheet" href="style.css">
+	<!-- <link rel="stylesheet" href="mySelectBox.css"> -->
 </head>
 <body>
-	<nav>
-		<div class="logo center">
-			<a href="#"><img src="https://via.placeholder.com/200x75" alt="logo"></a>
-		</div>
-		<ul class="center">
-			<!-- <li><a href="#"><img src="https://via.placeholder.com/200x75" alt="logo"></a></li> -->
-			<li><a href="index.html"><h1>Home</h1></a></li>
-			<li class="active"><a href="#"><h1>Bikes</h1></a></li>
-			<li><a href="#"><h1>Blog</h1></a></li>
-			<li><a href="#"><h1>About</h1></a></li>
-			<li><a href="#"><h1>Contact Us</h1></a></li>
-		</ul>
-	</nav>
+		<nav>
+	        <div class="burger-menu-icon">
+	            <a role="button" href="#open" title="Menu">
+	            	<img src="img/02.%20burger-menu.svg" width="35" height="35" alt="menu-icon">
+	            </a>
+	        </div>
+			<div class="logo center">
+				<a href="#"><img src="img/logo.svg" alt="logo"></a>
+			</div>
+			<div class="burger-menu">
+			    <div class="burger-menu__toolbar">
+			    	<a href="#close" role="button">
+			    		<img src="img/close-X.svg" width="30" height="30" alt="close-menu-icon">
+			    	</a>
+			    </div>
+	            <ul>
+	                <li><a href="index.html"><h1>HOME</h1></a></li>
+	                <li class="active"><a href="#"><h1>BIKES</h1></a></li>
+	                <li><a href="#"><h1>BLOG</h1></a></li>
+	                <li><a href="#"><h1>ABOUT</h1></a></li>
+	                <li><a href="#"><h1>CONTACT US</h1></a></li>
+	            </ul>
+
+			</div>
+		</nav>
 	<main>
 		<div class="cat center">
 			<ul>
@@ -44,138 +58,62 @@
 			</ul>
 		</div>
 		<div id="1">
-			<h1 class="center"><b>Road Bikes</b></h1>
-			<div class="container">
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
+			<!-- <div class="custom-select" style="width:200px;">
+			  <select>
+			    <option value="0">Select car:</option>
+			    <option value="1">Audi</option>
+			    <option value="2">BMW</option>
+			    <option value="3">Citroen</option>
+			    <option value="4">Ford</option>
+			    <option value="5">Honda</option>
+			    <option value="6">Jaguar</option>
+			    <option value="7">Land Rover</option>
+			    <option value="8">Mercedes</option>
+			    <option value="9">Mini</option>
+			    <option value="10">Nissan</option>
+			    <option value="11">Toyota</option>
+			    <option value="12">Volvo</option>
+			  </select>
+			</div> -->
+			<select name="category" id="type">
+				<!-- <template> -->
+					<option value="Road"></option>
+					<option value="Mountain"></option>
+					<option value="Electric"></option>
+					<option value="Fatbike"></option>
+					<option value="Urban"></option>
+				<!-- </template> -->
+			</select><br>
+			<select name="year" id="year">
+				<!-- <template> -->
+					<option value="2017"></option>
+					<option value="2018"></option>
+					<option value="2019"></option>
+					<option value="2020"></option>
+				<!-- </template> -->
+			</select><br>
+			<select name="gender" id="gender">
+				<!-- <template> -->
+					<option value="Unisex"></option>
+					<option value="Men"></option>
+					<option value="Women"></option>
+					<option value="Kids"></option>
+				<!-- </template> -->
+			</select>
+			<!-- <h1 class="center"><b>Road Bikes</b></h1> -->
+				<div class="container">
+					<template>
+						<div>
+							<h5 class="brand">Brand</h5>
+							<h6 class="name">Name</h6>
+							<img src="" alt="" class="bike_img">
+						</div>
+					</template>
 				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				
-			</div>
-		</div>
-		<div id="2">
-			<h1 class="center"><b>Mountain Bikes</b></h1>
-			<div class="container">
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				<div>
-					<h6><b>Brand</b><br>Name</h6>
-					<img src="https://via.placeholder.com/300x100" alt="">
-				</div>
-				
-			</div>
 		</div>
 	</main>
 	<script src="script.js"></script>
+	<script src="vanillaSelectBox.js"></script>
+	<!-- <script src="mySelectBox.js"></script> -->
 </body>
 </html>

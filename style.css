@@ -14,6 +14,72 @@ src: local('Bahnschrift Regular'), url('fonts/BAHNSCHRIFT.woff') format('woff');
 body{
 	margin:0px;
 }
+
+/*header*/ nav {
+    position: relative;
+}
+
+/*header*/ nav .burger-menu {
+    position: absolute;
+    left: -40%;
+    width: 40%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background: #343434;
+    color: #fff;
+    transition: left 0.3s ease-out;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+    padding: 1.5rem;
+
+}
+
+/*header*/ nav .burger-menu-icon {
+    position: absolute;
+    left: 1.5rem;
+    top: 36px;
+    width: 2rem;
+    height: 2rem;
+}
+
+/*header*/ nav .burger-menu-icon a {
+    cursor: pointer;
+}
+
+/*header*/ nav .burger-menu.open {
+    left: 0;
+}
+
+
+/*header*/ nav .burger-menu__toolbar {
+    margin: 0;
+    padding: 0.5rem 0 0 0.5rem;
+
+}
+
+
+/*header*/ nav .burger-menu ul {
+    list-style: none;
+    margin: 15% 0 0 30%;
+    padding: 0;
+}
+/*header*/ nav .burger-menu ul li {
+    margin: 1rem;
+    padding: 0;
+}
+
+
+/*header*/ nav .burger-menu ul a {
+    color: #fff;
+}
+
+/*header*/ nav .burger-menu ul li.active {
+    border: 0 solid transparent;
+}
+
+
+
 nav{
 	background: #343434;
 }
@@ -72,6 +138,10 @@ a{
 .active{
 	box-shadow: 0px 5px #73AECE;
 }
+
+/*header*/ nav .burger-menu ul li.active {
+    box-shadow: 0 0 transparent;
+}
 main{
 	background: #ccc;
 	min-height: 100vh;
@@ -100,9 +170,19 @@ main{
 .container h6{
 	position: relative;
 	margin: 0px;
-	top: 10px;
-	left: 10px;
+	top: 25px;
+	/*left: 10px;*/
 	transform: translateY(100%);
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.container h5{
+	position: relative;
+	margin: 0px;
+	top: 30px;
+	/*left: 10px;*/
+	transform: translateY(100%);
+	margin-left: 15px;
 }
 main > div {
 	padding-top: 70px;
@@ -113,5 +193,17 @@ main > div {
 	filter: invert(100%);
 	margin-top: 20px;
 	margin-bottom: 20px;
+<<<<<<< HEAD
     color: #F4F7F6;
 }
+=======
+}
+.container > div{
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: -25px;
+}
+.brand{
+	font-weight: bold;
+}
+>>>>>>> filtering

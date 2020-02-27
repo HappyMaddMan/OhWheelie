@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> filtering
 const link = "https://spreadsheets.google.com/feeds/list/1c_aP8TUuOLRLSGDlnVhXoUHLZuwBGa3XFl3akgGpi7c/1/public/values?alt=json"
 window.addEventListener("DOMContentLoaded", getData);
 
@@ -35,14 +38,23 @@ function showData(singleRowData){
 
 	singleRowData.gsx$image.$t = "img/" + singleRowData.gsx$image.$t + ".png";
 
+<<<<<<< HEAD
 	// console.log(singleRowData.gsx$image.$t)
+=======
+	console.log(singleRowData.gsx$image.$t)
+>>>>>>> filtering
 
 	if (singleRowData.gsx$image.$t == "img/.png") {
 		bike_img.src = "https://via.placeholder.com/300x100";
 	}
 	else{
+<<<<<<< HEAD
 		bike_img.src = singleRowData.gsx$image.$t;
 		bike_img.src = "https://via.placeholder.com/300x100";
+=======
+		// bike_img.src = "https://via.placeholder.com/300x100";
+		bike_img.src = singleRowData.gsx$image.$t;
+>>>>>>> filtering
 	}
 
 
@@ -63,6 +75,7 @@ window.addEventListener("DOMContentLoaded", function() {
     document.querySelector(".burger-menu__toolbar a").addEventListener("click", toggleMenu);
     document.querySelector(".burger-menu-icon a").addEventListener("click", toggleMenu);
 });
+<<<<<<< HEAD
 
 
 
@@ -100,3 +113,5 @@ window.addEventListener("DOMContentLoaded", function() {
 //   });
 // }
 >>>>>>> Stashed changes
+=======
+>>>>>>> filtering

@@ -15,12 +15,10 @@
 body {
     margin: 0px;
 }
-
-header nav {
+/*header*/ nav {
     position: relative;
 }
-
-header nav .burger-menu {
+/*header*/ nav .burger-menu {
     position: absolute;
     left: -40%;
     width: 40%;
@@ -35,51 +33,47 @@ header nav .burger-menu {
     padding: 1.5rem;
 
 }
-
-header nav .burger-menu-icon {
+/*header*/ nav .burger-menu-icon {
     position: absolute;
     left: 1.5rem;
     top: 36px;
     width: 2rem;
     height: 2rem;
 }
-
-header nav .burger-menu-icon a {
+/*header*/ nav .burger-menu-icon a {
     cursor: pointer;
 }
-
-header nav .burger-menu.open {
+/*header*/ nav .burger-menu.open {
     left: 0;
 }
-
-
-header nav .burger-menu__toolbar {
+/*header*/ nav .burger-menu__toolbar {
     margin: 0;
     padding: 0.5rem 0 0 0.5rem;
 
 }
-
-
-header nav .burger-menu ul {
+/*header*/ nav .burger-menu ul {
     list-style: none;
     margin: 15% 0 0 30%;
     padding: 0;
 }
+<<<<<<< HEAD
 
 header nav .burger-menu ul li {
+=======
+/*header*/ nav .burger-menu ul li {
+>>>>>>> origin/master
     margin: 1rem;
     padding: 0;
 }
 
-
-header nav .burger-menu ul a {
+/*header*/ nav .burger-menu ul a {
     color: #fff;
 }
-
-header nav .burger-menu ul li.active {
+/*header*/ nav .burger-menu ul li.active {
     border: 0 solid transparent;
 
 }
+<<<<<<< HEAD
 
 header nav .burger-menu ul li:hover {
     color: #74afcf;
@@ -91,6 +85,10 @@ header nav .burger-menu ul li.active a {
 
 nav {
     background: #343434;
+=======
+nav{
+	background: #343434;
+>>>>>>> origin/master
 }
 
 ul {
@@ -133,6 +131,7 @@ a {
     text-decoration: none;
     color: #73AECE;
 }
+<<<<<<< HEAD
 
 .banner {
     background-image: url(https://via.placeholder.com/1000x500);
@@ -140,6 +139,15 @@ a {
     background-size: cover;
     background-position: center;
     height: 100vh;
+=======
+.banner{
+	/*background-image: url(https://via.placeholder.com/1000x500);*/
+	background-image: url(img/home/first-photo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+>>>>>>> origin/master
 }
 
 .banner_text {
@@ -161,10 +169,10 @@ a {
 .active {
     box-shadow: 0px 5px #73AECE;
 }
-
-header nav .burger-menu ul li.active {
+/*header*/ nav .burger-menu ul li.active {
     box-shadow: 0 0 transparent;
 }
+<<<<<<< HEAD
 
 main {
     background: #ccc;
@@ -184,6 +192,50 @@ main {
 
 .cat > ul li:last-child {
     border-width: 0px;
+=======
+main{
+	background: #ccc;
+	min-height: 100vh;
+	padding-bottom: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.cat > ul li{
+	display: inline-block;
+	/*margin-top: 35px;*/
+	padding-right: 20px;
+	padding-left: 20px;
+	border-right: 3px solid #73AECE;
+}
+.cat > ul li:last-child{
+	border-width: 0px;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.container img{
+	border: 2px solid #73AECE;
+	max-width: 300px;
+}
+.container h6{
+	position: relative;
+	margin: 0px;
+	top: 25px;
+	/*left: 10px;*/
+	transform: translateY(100%);
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.container h5{
+	position: relative;
+	margin: 0px;
+	top: 30px;
+	/*left: 10px;*/
+	transform: translateY(100%);
+	margin-left: 15px;
+>>>>>>> origin/master
 }
 
 .container {
@@ -214,6 +266,7 @@ main > div {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+<<<<<<< HEAD
 
 
 .blog {
@@ -253,4 +306,21 @@ main > div {
     font-family: 'Bahnschrift Regular';
     text-decoration: underline;
     cursor: pointer;
+=======
+.logo img{
+	width: 10%;
+    height: auto;
+	filter: invert(100%);
+	margin-top: 20px;
+	margin-bottom: 20px;
+    color: #F4F7F6;
+}
+.container > div{
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: -25px;
+}
+.brand{
+	font-weight: bold;
+>>>>>>> origin/master
 }

@@ -100,9 +100,19 @@ main{
 .container h6{
 	position: relative;
 	margin: 0px;
-	top: 10px;
-	left: 10px;
+	top: 25px;
+	/*left: 10px;*/
 	transform: translateY(100%);
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.container h5{
+	position: relative;
+	margin: 0px;
+	top: 30px;
+	/*left: 10px;*/
+	transform: translateY(100%);
+	margin-left: 15px;
 }
 main > div {
 	padding-top: 70px;
@@ -116,4 +126,8 @@ main > div {
 .container > div{
 	margin-right: 20px;
 	margin-left: 20px;
+	margin-top: -25px;
+}
+.brand{
+	font-weight: bold;
 }

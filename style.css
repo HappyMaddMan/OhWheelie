@@ -188,6 +188,46 @@ main{
 main > div {
 	padding-top: 70px;
 }
+
+.blog {
+    background-color: white;
+}
+
+.blogEntry {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.blogImg {
+    padding: 0 2rem;
+}
+
+.blogText {
+    font-size: 14px;
+    text-align: justify;
+    max-width: 960px;
+}
+
+.blogText > h2 {
+    margin-top: 0;
+}
+
+
+.more {
+    display: none;
+}
+
+#Btn {
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: 'Bahnschrift Regular';
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .logo img{
 	width: 15%;
 	filter: invert(100%);

@@ -163,10 +163,12 @@ main{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	align-items: center;
 }
 .container img{
 	border: 2px solid #73AECE;
 	max-width: 300px;
+	padding: 50px 10px;
 }
 .container h6{
 	position: relative;

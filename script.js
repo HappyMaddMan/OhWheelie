@@ -31,11 +31,11 @@ function showData(singleRowData){
 
 	bike_img.alt = singleRowData.gsx$image.$t;
 
-	singleRowData.gsx$image.$t = "img/" + singleRowData.gsx$image.$t + ".png";
+	singleRowData.gsx$image.$t = "img/bikes/" + singleRowData.gsx$image.$t + ".png";
 
 	console.log(singleRowData.gsx$image.$t)
 
-	if (singleRowData.gsx$image.$t == "img/.png") {
+	if (singleRowData.gsx$image.$t == "img/bikes/.png") {
 		bike_img.src = "https://via.placeholder.com/300x100";
 	}
 	else{

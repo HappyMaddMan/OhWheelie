@@ -166,6 +166,7 @@ main{
 }
 .container img{
 	border: 2px solid #73AECE;
+	max-width: 300px;
 }
 .container h6{
 	position: relative;
